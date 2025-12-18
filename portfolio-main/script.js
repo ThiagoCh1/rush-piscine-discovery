@@ -41,7 +41,7 @@ sr.reveal('.section-title', { delay: 100 });
 
 
 function copyEmail() {
-    const email = "plpvalgas@gmail.com";
+    const email = "nicolascage24.com";
     const container = document.querySelector('.copy-container');
     
     navigator.clipboard.writeText(email).then(() => {
