@@ -45,6 +45,11 @@ body {
     pointer-events: none;
 }
 
+.hero-text
+{
+    text-decoration: dashed;
+}
+
 h1, h2, h3, .dev-title, .tech-tags { font-family: 'Fira Code', monospace; }
 
 .highlight-cyan { color: var(--cyan); text-shadow: 0 0 10px var(--cyan-glow); }
