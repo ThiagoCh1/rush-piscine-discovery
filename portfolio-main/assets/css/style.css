@@ -244,13 +244,19 @@ nav {
 }
 
 .skill-card {
-    width: 300px; flex-grow: 1; max-width: 350px;
+    width: 200px; flex-grow: 1; max-width: 250px;
     background: var(--card-bg);
     padding: 2.5rem; border-radius: 16px;
     border: 1px solid var(--border-color);
     display: flex; flex-direction: column; align-items: center; gap: 1rem;
     transition: 0.3s;
 }
+
+.skill-card.spring img {
+    width: 64px;
+    height: 64px;
+}
+
 
 .skill-card i { font-size: 3rem; color: var(--text-muted); transition: 0.3s;  }
 
